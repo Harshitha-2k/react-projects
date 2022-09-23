@@ -1,0 +1,14 @@
+ul,li,a{
+    display: inline-block;
+    justify-content: center;
+    text-decoration: none;
+}
+li{
+    padding: 10px 30px;
+}
+a:hover{
+    color: red;
+}
+a:active{
+    color: goldenrod;
+}
