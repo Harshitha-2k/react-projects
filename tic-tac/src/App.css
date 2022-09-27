@@ -1,0 +1,32 @@
+h1{
+  text-align: center;
+}
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.square{
+  text-align: center;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  width:100px;
+  height: 80px;
+}
+h3{
+  font-size: 27px;
+}
+.button{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 33px;
+}
+button{
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 6px;
+}
+button:active{
+  background-color: lightgoldenrodyellow;
+}
