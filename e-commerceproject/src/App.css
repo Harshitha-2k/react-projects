@@ -1,0 +1,77 @@
+.shop-cart{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 30px;
+}
+.nav-item{
+  width: 200px;
+  text-align: center;
+  text-decoration: none;
+  color:black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+.nav-item:active{
+  color: gray;
+  text-decoration-line: underline; 
+}
+.nav-item:hover{
+  color: brown;
+}
+.btn{
+  border: 1px solid black;
+  margin-left: 20px;
+}
+.btn:active{
+ color: brown;
+}
+.btn:hover{
+ background-color: lavender ;
+}
+
+.img{
+  width: 50px;
+}
+.inner-text{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-top: 20px;
+}
+.card{
+  width: 17rem;
+  margin-bottom: 50px;
+  margin-left: 40px;
+}
+.card-body{
+  padding: 4px 12px;
+  width:20rem;
+}
+.card-text{
+  font-size: 15px;
+  width:10rem;
+  padding: 4px 12px;
+}
+.card-img-top{
+  width:16rem;
+  height: 12rem;
+  padding: 2px 8px;
+}
+button{
+  margin: 2px 6px;
+}
+.form{
+  display: flex;
+  justify-content: center;
+  margin: 82px 443px;
+  height: 223px;
+  border: 1px solid black;
+} 
+.button{
+  margin-left: 74px;
+}
+h1{
+  text-align: center;
+  padding: 2px;
+}
+input{
+  margin: 15px;
+}
