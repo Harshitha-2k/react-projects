@@ -1,9 +1,11 @@
 import React, { useState } from 'react'
+import { useSelector } from 'react-redux'
 import { NavLink} from 'react-router-dom'
-import Product1 from './Product1'
+import AddItems from '../Reducer/Reducer'
 
+ const  Header = () => {  
+  const state = useSelector(item=>item.AddItems)
 
- const  Header = ()=>{
   return (
         <div>
        <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -21,15 +23,13 @@ import Product1 from './Product1'
                  <NavLink className="nav-item" to="/Products" >Products</NavLink>
                </li>
              </ul>
+             </div>
+             </div>
              <button className="btn">
-                <NavLink className="nav-item" to="/Login">Login</NavLink>
+              <NavLink className="nav-item" to="/Login">Login</NavLink>
               </button>
               <br/>
-              <button className="btn">
-                <NavLink className="nav-item" to="/Product1">Add to cart</NavLink>
-              </button>
-           </div>
-         </div>
+              <button className="btn">cart({state.length})</button>
        </nav> 
      </div>
 

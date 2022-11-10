@@ -5,32 +5,21 @@ import Header from './Components.js/Header';
 import Home from './Components.js/Home';
 import  Products  from './Components.js/Products'
 import Login from './Components.js/Login';
-import { BrowserRouter as Routes,Route} from 'react-router-dom';
-import Product1 from './Components.js/Product1';
+import { Switch , Route } from 'react-router-dom';
+import Cart from './Components.js/Cart';
+
 
 function App(){
   return (
     <>
-    <Header/>
-    <Routes>
+    <Header />
+    <Switch>
       <Route  path="/Home" component={Home}/>
       <Route  path="/Products"  component={Products}/>
-      <Route path="/Products/:id" component={Product1}/>
       <Route path="/Login" component={Login}/>
-    </Routes>
+      </Switch>
     </>
 )
 }
 
 export default App;
-
-// function App() {
-//   return (
-//     <div className="App">
-//       {/* <h1>hi</h1> */}
-//       <Header/>
-//     </div>
-//   );
-// }
-
-// export default App;
